@@ -2,7 +2,7 @@
 import paramiko
 
 transport = paramiko.Transport(('10.211.55.11',22))
-m = transport.connect(username='parallels', password='woaini123')
+m = transport.connect(username='name', password='*******')
 # 将sshclient的对象的transport指定为以上的transport
 ssh = paramiko.SSHClient()
 ssh._transport = transport
